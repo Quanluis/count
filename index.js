@@ -11,3 +11,32 @@ let y = document.getElementById('sub').onclick = function() {
 
 
 
+ let counter = document.getElementById('counter').innerHTML = 0;
+
+function add(){
+    counter++;
+   console.log(counter)
+}
+add()
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+
+
