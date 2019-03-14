@@ -8,9 +8,6 @@ let y = document.getElementById('sub').onclick = function() {
     console.log('You sub me')
 }
 
-
-
-
  let counter = document.getElementById('counter').innerHTML = 0;
 
 function add(){
@@ -18,6 +15,17 @@ function add(){
    console.log(counter)
 }
 add()
+
+let textColor = document.getElementById('color');
+let buttonColor = document.getElementById('colorChanger');
+let colorName = document.getElementById('colorName');
+
+
+buttonColor.addEventListener( 'click', () => {
+    textColor.style.color = colorName.value
+})
+
+
 
 
 
